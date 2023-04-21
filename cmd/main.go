@@ -30,7 +30,7 @@ func main() {
 	registerRoute(r)
 
 	srv := &http.Server{
-		Addr:    ":8080",
+		Addr:    ":8086",
 		Handler: r,
 	}
 
